@@ -7,8 +7,11 @@
 
 import SwiftUI
 
-struct ContenetView: View {
+struct ContentView: View {
     var body: some View {
         Text("Hello, World!")
+        VStack{
+        Text("Hello!")
+        }
     }
 }
